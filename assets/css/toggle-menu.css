@@ -1,0 +1,29 @@
+.toggle{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+
+}
+.menu2{
+    display: absolute;
+    background-color: #eee;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style: none;
+    transform: translateX(-100%);
+    transition: transform .3s;
+}
+.menu2--show{
+    transform: translateX(0);
+}
+.menu__item{
+    padding: 1em;
+    border-bottom: 1px solid black;
+}
+.menu__link{
+    color: rgb(116, 113, 113);
+    text-decoration: none;
+}
+
